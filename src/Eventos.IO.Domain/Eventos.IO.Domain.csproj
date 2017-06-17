@@ -7,14 +7,14 @@
     <OutputTypeEx>library</OutputTypeEx>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="6.4.0-rc3" />
+    <PackageReference Include="FluentValidation" Version="6.4.0" />
+    <PackageReference Include="System.Security.Claims" Version="4.3.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Eventos.IO.Domain.Core\Eventos.IO.Domain.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Eventos\Repository\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="CommandHandlers\" />
   </ItemGroup>
 </Project>

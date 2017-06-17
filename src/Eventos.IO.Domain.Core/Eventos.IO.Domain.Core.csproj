@@ -3,7 +3,7 @@
     <TargetFramework>netstandard1.6</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="6.4.0-rc3" />
+    <PackageReference Include="FluentValidation" Version="6.4.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Events\" />
