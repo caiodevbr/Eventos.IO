@@ -39,7 +39,7 @@ namespace Eventos.IO.Infra.CrossCutting.AspNetFilters
                     TimeStamp = DateTime.Now
                 };
 
-                _logger.LogInformation(1, data.ToString(), "Log de Auditoria");
+                _logger.LogInformation(1, data.ToString());
             }
 
             if (_hostingEnviroment.IsProduction())
@@ -64,7 +64,7 @@ namespace Eventos.IO.Infra.CrossCutting.AspNetFilters
                 };
             
 
-                var client = ElmahioAPI.Create("8f46c7cd9bfe4a618abf7a5ea652d0d9");
+                var client = ElmahioAPI.Create("e1ce5cbd905b42538c649f6e1d66351e");
                 client.Messages.Create(new Guid("19ad15fd-5158-4b7a-b36d-ab56dfe4500a").ToString(), message);
             }
         }

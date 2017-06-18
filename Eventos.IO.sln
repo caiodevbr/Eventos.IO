@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventos.IO.Infra.CrossCutti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventos.IO.Infra.CrossCutting.AspNetFilters", "src\Eventos.IO.Infra.CrossCutting.AspNetFilters\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj", "{EF27A20B-CD35-4A6C-887F-80857DC5776A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventos.IO.Services.Api", "src\Eventos.IO.Services.Api\Eventos.IO.Services.Api.csproj", "{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,18 @@ Global
 		{EF27A20B-CD35-4A6C-887F-80857DC5776A}.Release|x64.Build.0 = Release|Any CPU
 		{EF27A20B-CD35-4A6C-887F-80857DC5776A}.Release|x86.ActiveCfg = Release|Any CPU
 		{EF27A20B-CD35-4A6C-887F-80857DC5776A}.Release|x86.Build.0 = Release|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Debug|x64.Build.0 = Debug|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Debug|x86.Build.0 = Debug|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Release|x64.ActiveCfg = Release|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Release|x64.Build.0 = Release|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Release|x86.ActiveCfg = Release|Any CPU
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,5 +183,6 @@ Global
 		{33AA9F86-B921-4D2A-A124-D580CB9B451F} = {C1F1AECB-64BD-4A65-BA74-E88D5B6A8CE5}
 		{BFD8C11F-08C6-4EB3-8546-9A418EC7AF9C} = {C1F1AECB-64BD-4A65-BA74-E88D5B6A8CE5}
 		{EF27A20B-CD35-4A6C-887F-80857DC5776A} = {C1F1AECB-64BD-4A65-BA74-E88D5B6A8CE5}
+		{C04E3757-D073-4E4D-A0DC-0F5A8A91703C} = {B6228DA6-1105-4683-B847-186E32AEBD3D}
 	EndGlobalSection
 EndGlobal
